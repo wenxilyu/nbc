@@ -1,0 +1,61 @@
+html,body{
+    min-height: 100%;
+}
+body{
+    font: 300 1em/0.5 arial black;
+}
+.menu{
+    background-color: #111;
+    color:rgb(167, 167, 167);
+    list-style:none;
+    margin: 0;
+    overflow:hidden;
+    display:flex;
+    justify-content: left;
+    font:uppercase;
+}
+.item{
+    margin:1em 0;
+    padding:0 2em 0;
+}
+
+.menu2{
+    background-color: rgb(218, 218, 218);
+    color:rgb(0, 0, 0);
+    list-style:none;
+    margin: 0;
+    overflow:hidden;
+    display:flex;
+    justify-content: left;
+    font:uppercase; 
+}
+.imgbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+    list-style: none;
+}
+.imgb{
+    line-height: 1;
+}
+.p1{
+    display:flex;
+    font: 0.5em arial;
+    line-height: 1.5;
+}
+.imgb img{
+    height:290px;
+    padding:0 0.2em;
+}
+.p0{
+    font-size: 1em;
+    font-weight: 200;
+}
+.p2{
+    display:block;
+    font: 0.5em arial;
+    line-height: 1.5;
+}
+
